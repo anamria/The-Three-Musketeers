@@ -1,0 +1,98 @@
+form {
+    padding: 20px;
+    width: 1000px ;
+    height: auto;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+.tengah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    color: white;
+    background-color: black;
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    /* justify-content: center;
+    align-items: center; */
+}
+#btn {
+    color: white;
+    background-color: black;
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#hasil {
+    margin: 2px;
+    text-align: center;
+}
+#true {
+    margin: 2px;
+    color: green;
+    text-align: center;
+}
+
+#false {
+    margin: 2px;
+    color: red;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.bg{
+    background-color: #FFEBEB
+}
+
+.sb{
+    background-color: #ADE4DB
+}
+
+.nb{
+    background-color: #6DA9E4
+}
+
+.ft{
+    background-color: #F6BA6F
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    width: 400px;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.tip {
+    margin-left: 15px;
+}

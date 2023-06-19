@@ -1,0 +1,26 @@
+.containerlb{
+    width: 50%;
+    margin: 50px;
+    margin-left: 300px;
+    padding: 60px;
+    padding-left: 110px;
+    border: 4px solid black;
+    border-radius: 5px;
+    /* background-image: url("img/lahan2.png"); */
+    align-items: center;
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+table, tr, th, td{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+
+th, td {
+    width: 130px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    /* color: white; */
+}

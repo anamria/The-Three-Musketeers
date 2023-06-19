@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url(RifficFree-Bold.ttf);
+}
+@font-face {
+    font-family: myFont2;
+    src: url(debussy.ttf);
+}
+
+h3 {
+    font-family: myFont1;
+    text-shadow: 2px 1px rgb(175, 169, 169);
+    color: #292723;
+    font-size: 30px;
+    /* margin-top: 90px; */
+}
+
+.gjudul {
+    width: 400px;
+    height: 250px;
+}
+
+.gbtn {
+    width: 180px;
+    height: 80px;
+}
+
+.gbtn:hover {
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+@media (max-width: 850px) {
+    .wrap img {
+        width: 5%;
+    }
+    img .Judul1 {
+        font-size: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .wrap img {
+        width: 6%;
+    }
+
+    img .Judul1 {
+        font-size: 13px;
+    }
+    img {
+        width: 250px;
+    }
+}

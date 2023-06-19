@@ -1,0 +1,98 @@
+#cross{
+    text-align: center;
+    width:30px;
+    height:30px;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+#buttons{
+    width:30%;
+    float: right;
+}
+
+tr{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+td{
+    height: 30px;
+    width: 30px;
+}
+
+#leftBox{
+    float: left;
+    margin: 20px;
+}
+
+#rightBox{
+    float: left;
+    clear:left;
+    margin: 20px;
+}
+
+.btn1{
+    height:40px;
+    width: 120px;
+    background-color:lightgreen;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.btn2{
+    height:40px;
+    width: 120px;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.btn3{
+    height:40px;
+    width: 120px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.btn4{
+    height:40px;
+    width: 120px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#puzzel{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.inputBox{
+    width: 40px;
+    height:40px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#hintsTable{
+    width: 480px;
+    float: left;
+    clear: left;
+    margin: 20px;
+}
+
+.flex{
+    display: flex;
+}
